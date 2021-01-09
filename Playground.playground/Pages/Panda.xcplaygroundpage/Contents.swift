@@ -38,16 +38,32 @@ PlaygroundPage.current.liveView = canvas
 
 // Replace this comment with your first comment – what is the goal of the code you're about to write?
 canvas.drawAxes(withScale: true, by: 50)
-//canvas.drawRectangle(at: Point(x: 50, y: 75), width: 100, height: 200)
 canvas.drawShapesWithBorders=true
+//sky
+canvas.fillColor=Color.blue
+canvas.drawRectangle(at: Point(x: 0, y: 200), width: 600, height: 400)
+//grass
+canvas.fillColor=Color.green
+canvas.drawRectangle(at:Point(x:0,y:200),width:600,height:100)
+//ears
+canvas.fillColor=Color.black
 canvas.drawEllipse(at: Point(x:80,y:450), width: 45, height: 45)
 canvas.drawEllipse(at: Point(x:220,y:450), width: 45, height: 45)
+//body
 canvas.fillColor=Color.white
-canvas.drawEllipse(at: Point(x:150,y:400), width: 200, height: 150)
+canvas.drawEllipse(at: Point(x: 150, y: 300), width: 140, height: 160)
+//head
+canvas.drawEllipse(at: Point(x:150,y:395), width: 195, height: 155)
+//face
 canvas.fillColor=Color.black
-canvas.drawEllipse(at: Point(x:115,y:400), width: 25, height: 50)
-canvas.drawEllipse(at: Point(x:185,y:400), width: 25, height: 50)
-canvas.drawEllipse(at: Point(x:150,y:380), width: 5, height: 5)
+canvas.drawEllipse(at: Point(x:115,y:390), width: 25, height: 50)
+canvas.drawEllipse(at: Point(x:185,y:390), width: 25, height: 50)
+canvas.drawEllipse(at: Point(x:150,y:370), width: 5, height: 5)
+//feet
+canvas.drawEllipse(at: Point(x:80,y:295), width: 40, height: 40)
+canvas.drawEllipse(at: Point(x:220,y:295), width: 40, height: 40)
+canvas.drawEllipse(at: Point(x:95,y:230), width: 50, height: 35)
+canvas.drawEllipse(at: Point(x:205,y:230), width: 50, height: 35)
 /*:
  ## Show the Live View
  Don't see any results?
