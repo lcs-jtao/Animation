@@ -64,6 +64,7 @@ canvas.drawEllipse(at: Point(x:80,y:295), width: 40, height: 40)
 canvas.drawEllipse(at: Point(x:220,y:295), width: 40, height: 40)
 canvas.drawEllipse(at: Point(x:95,y:230), width: 50, height: 35)
 canvas.drawEllipse(at: Point(x:205,y:230), width: 50, height: 35)
+
 /*:
  ## Show the Live View
  Don't see any results?
